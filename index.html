@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body>
+
+    <h1>Single Linked List</h1>
+    <hr>
+    <p>A Single Linked List is a data structure that consists of a list of nodes arranged in a forward direction, which
+        means it cannot be placed in a backward direction. If the navigation is forward only, then it is called a single
+        linked list.</p>
+    <p>A single-linked list is a list made up of nodes that consist of two parts.</p>
+    <img src="Images/extension.drawio.png" alt="" width="200px">
+    <br>
+    <h1>Deleting The Single-Linked List</h1>
+    <hr>
+    <p>Let's Take an example where we aim to store the list of numbers 45, 98 and 3 in a single linked list. </p>
+    <img src="Images/imp.drawio.png" alt="">
+    <p>From this list if we successfully delete the first node, what about the other nodes?
+        Once the first node is removed, It will lose direct access to the subsequent nodes. The only way to reach and
+        delete the second node is through the link part in the second node. We can also use the head pointer, which
+        holds the address of the first node. This structure helps us to navigate properly. We need to store the address
+        of the second node somewhere so that we can reach the second node even if the first node is deleted. To reach
+        the second node through some pointer.</p>
+
+    <img src="Images/in.drawio.png" alt="">
+    <p>That's why we use another pointer, temp, Which will store the address of second node after deleting the first
+        node of this list. In this way, we are successfully maintaining the address of the second node and making it
+        easy to continue.</p>
+    <img src="Images/main.drawio.png" alt="">
+    
+    
+ 
+    <p> Now initially, the temp, pointer of this list will move towards the right with the help of, the temp, link it
+        can access the address 2000. We have a temp pointer pointing to the second node of the list, and we have a head
+        pointer pointing to the first node of this list. Now we can easily delete the first node of this list using the
+        free function. After deleting the first node, we should update the head pointer to point to the second node,
+        which will be the new head of the list. </p>\
+    <img src="Images/use.drawio.png" alt="">
+    <p>
+        We need to repeat the process to delete the second node of this list. First, we would move out the temp from
+        this side. After this, we would free the head with a free function then we would move the head into temp. Now
+        the head is pointing to the third node of this list.
+    </p>
+   
+     <img src="Images/hi.drawio.png" alt=""> 
+    <p>Then we have to repeat the process so that we can delete the last node as well. Then we will update temp by null
+        using the free function to free this node. </p>
+        <img src="Images/JI.drawio.png" alt="">
+        <p>We are repeating the following procedure until temp becomes NULL.</p>
+        <p>Therefore, we can use a while loop which runs the  procedure until temp becomes NULL.Here the process complete</p>
+       <br>
+       <br>
+       <br>
+       
+        <h2>Program For This Code</h2>
+        <hr>
+        <img src="Images/image.png" alt="">
+        <h2>Output</h2>
+        <hr>
+        <img src="Images/output.png" alt="">
+      <br><br>
+       
+      
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+       
+              <footer>
+                <h3>&copy; 2024  Mandira. All Rights Reserved.</h3>
+            </footer>
+       
+           
+         
+</body>
+
+</html>

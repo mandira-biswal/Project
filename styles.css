@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+h1 {
+  color: #259374;
+  font-family: "Comic Neue";
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+h2{
+  color: #40208a;
+  font-family: "Comic Neue";
+  font-weight: bolder;
+  font-size: 50px;
+}
+p {
+  font-family: "Comic Neue";
+  font-weight: bolder;
+  font-size: 20px;
+  color: #3e63ae;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: #333; /* Adjust color as needed */
+  text-decoration: none;
+}
+
+.social-icons i {
+  font-size: 24px; /* Adjust size as needed */
+}
+.social-icons a:hover {
+  color: #007bff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #c6c1c1;
+  color: #000;
+}
